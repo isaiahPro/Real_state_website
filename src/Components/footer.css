@@ -1,0 +1,8 @@
+.footer-main-box{
+    display: flex;
+    font-size: 25px;
+    background-color: rgb(8, 66, 66);
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+    padding: 30px;
+}

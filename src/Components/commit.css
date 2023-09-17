@@ -1,0 +1,71 @@
+
+
+@keyframes slideLeft {
+    0% {
+        transform: translate(-100%,-100%);
+      }
+      100% {
+        transform: translate(0,0);
+      }
+  }
+
+
+
+.commit-main-box{
+    background-color: rgb(8, 66, 66);
+    width: 100vw;
+    height: 100vh;
+}
+.commit-main-box{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 50px;
+    font-family: 'Ubuntu', sans-serif;
+    color: white;
+    font-size: larger;
+  
+}
+.commit-box-left{
+    width: 15vw;
+    background-color: orange;
+    margin: 100px;
+    padding: 80px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+.commit-box-left img{
+    width: 37vw;
+    height: 100%;
+}
+.commit-box-right{
+    margin-top: 60px;
+    margin-left: 200px;
+}
+.commit-box-bottom{
+    padding: 30px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.commit-box-bottom-list{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    width: 50%;
+    margin-bottom: 30px;
+}
+.commit-icons{
+    background-color: orange;
+    color: rgb(8, 66, 66);
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 25px;
+
+}
+#commit-box-main-left-scroll{
+    animation: slideInFromTopLeft 1s ease-in-out;
+}

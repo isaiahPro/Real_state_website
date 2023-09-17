@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+.navbar-main-container{
+    font-family: 'PT Sans', sans-serif;
+    background-color: rgb(8, 66, 66);
+    height: 8vh;
+    margin: -10px;
+    color: white;
+    padding-left: 100px;
+    padding-top: 40px;
+    margin-bottom: 0px;
+    font-size: 21px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+
+}
+li{
+    list-style-type: none;
+}
+.navbar-left-link-section{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+
+}
+.navbar-list-item{
+    text-decoration: none;
+    color: white;
+}
+.navbar-list-item:hover{
+    color: orange;
+}
+.navbar-list-item:focus{
+    color: orange;
+}
+#dropdownitem{
+    display: flex;
+    margin-top: -5px;
+}
+.dropdownlist-icons{
+    padding-top: 7px;
+    font-size: 25px;
+}
+.dropdown-list-in{
+    font-size: 20px;
+}
+.dropdown-list-in:hover{
+    color: orange;
+    padding: 5px;
+    border-radius: 10px;
+    font-family: 'PT Sans', sans-serif;
+    
+}
+.navbar-right-section{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    font-size:45px;
+    margin-top:-7px;
+}
+.nav-right-list-search{
+    color: orange;
+}
+.nav-right-list-menu:hover{
+    color: orange;
+}
+.logo-image{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    margin-top: -20px;
+    margin-left: -100px;
+}
+@keyframes slideInFromLeft {
+    0% {
+      transform: translateX(100%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+.navbar-search-value{
+    width: 100.3vw;
+    height: 115vh;
+    margin-left: -10px;
+    z-index: 2;
+    margin-top: -110px;
+    background-color:rgb(7, 7, 7,.8); 
+    position: absolute;
+    top: 0; 
+    animation: slideInFromLeft 0.7s ease-in-out;
+    
+   
+}
+::-webkit-scrollbar {
+    width: 0px;
+    height: 0px;
+  }
+  .navbarsearch-in{
+    align-items: center;
+    text-align: center;
+    margin-top:27% ;
+    height: 75px;
+    width: 45%;
+    background-color: white;
+    margin-left: 17% ;
+    border-radius: 35px;
+    display: flex;
+    flex-direction: row;
+    padding-left: 15%;
+    padding-right: 10%;
+
+
+    justify-content: space-between;
+  }
+  .navbarsearch-in input{
+    width: 80%;
+    margin: 10px;
+    margin-left: -170px;
+    height: 65%;
+    font-size: 25px;
+    font-family: 'PT Sans', sans-serif;
+    padding-left: 40px ;
+    border: none;
+    
+  }
+  .navbarsearch-in input:focus{
+    outline: none;
+  }
+  .navbarsearch-in span{
+    font-size: 35px;
+    font-weight: bold;
+    margin-right: -100px;
+  }
+  .nav-right-list-search-in{
+    font-size: 40px;
+    margin-right: -150px;
+    
+
+  }

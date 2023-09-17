@@ -1,0 +1,253 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@keyframes slideInFromTopLeft {
+    0% {
+        transform: translateX(-100%);
+      }
+      100% {
+        transform: translateX(0);
+      }
+  }
+  @keyframes slideInFromLeft {
+    0% {
+        transform: translateX(-100%);
+      }
+      100% {
+        transform: translateX(0);
+      }
+  }
+  @keyframes slideInFromTopRight {
+    0% {
+        transform: translateX(100%);
+      }
+      100% {
+        transform: translateX(0);
+      }
+  }
+
+
+.home-main-box{
+    background-color: rgb(8, 66, 66);
+    margin: -10px;
+    margin-top: -39px;
+    height: 80vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 100px;
+    padding-left: 100px;
+    gap: 400px;
+
+}
+.home-white-title{
+    color: white;
+    font-size: 90px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    
+}
+.home-orange-title{
+    color: orangered;
+    font-size: 100px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+}
+.home-title{
+    display: flex;
+    flex-direction: column;
+    gap: -20px;
+    line-height: 1;
+    width: 40vw;
+    animation: slideInFromTopLeft 0.9s ease-in-out;
+}
+.home-title p{
+    color: white;
+    font-size: 35px;
+}
+.contact-now-button{
+    background-color: orange;
+    width: 40%;
+    height: 55px;
+    margin-left: 30px;
+    text-align: center;
+    padding-top: 15px;
+    margin-top: -20px;
+}
+.contact-now-button-link{
+    text-decoration: none;
+    color: rgb(8, 66, 66); 
+    font-size: 30px;
+    font-family: 'Oswald', sans-serif;
+}
+.contact-now-button:hover{
+    background-color: white;
+}
+.home-picture{
+    background-color: rgb(216, 158, 48);
+    padding: 30px;
+    height: 60vh;
+    width: 300px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    animation: slideInFromTopRight 0.9s ease-in-out;
+}
+
+.home-picture img{
+    margin-left: -350px;
+    width: 600px;
+    border-radius: 20px;
+}
+.book-main-box{
+    background-color: rgb(8, 66, 66);
+    margin: -10px;
+    margin-top: -39px;
+    padding: 100px;
+    padding-left: 150px;
+
+}
+.book-main-box h1{
+    font-family: 'Oswald', sans-serif;
+    font-size: 25px;
+}
+.book-descr{
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border-radius: 20px;
+    padding: 30px;
+    gap: 100px;
+    padding-top: 35px;
+    animation: slideInFromTopLeft 0.9s ease-in-out;
+   
+}
+
+.book-now-button{
+    background-color: orange;
+    width: 20%;
+    height: 55px;
+    margin-left: 100px;
+    text-align: center;
+    padding-top: 10px;
+    margin-top: 0px;
+}
+.book-now-button-link{
+    text-decoration: none;
+    color: rgb(8, 66, 66); 
+    font-size: 30px;
+    font-family: 'Oswald', sans-serif;
+}
+.book-now-button:hover{
+    background-color: rgb(201, 153, 66);
+}
+.property-box{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 10px;
+    margin-left: -5px;
+    padding: 100px;
+    width: 88.3vw;
+    background-color: rgb(200, 212, 222);
+    
+  
+}
+.property-box-in{
+    display: flex;
+    flex-direction: row;
+    gap: 0px;
+   
+}
+.offer-property{
+
+    font-family: 'Ubuntu', sans-serif;
+    background-color: white;
+    padding: 30px;
+    border-radius: 30px;
+    text-align: left;
+    font-size: 20px;
+    margin: 10px;
+}
+.property-icon-box{
+    background-color: rgb(8, 66, 66);
+    width: 100px;
+    height: 100px;
+    border-radius: 20px;
+}
+.property-icons{
+    padding: 10px;
+    font-size: 80px;
+    color: white;
+
+}
+.learn-more-link{
+    display: flex;
+    color: blue;
+    padding-left: 20px;
+}
+.learn-more-link:hover{
+    color: rgb(81, 81, 174);
+}
+
+#moddle-offer-property{
+    background-color: rgb(8, 66, 66);
+    color: white;
+}
+#middle-learn-more{
+    color: orangered;
+}
+.offer-property p{
+    font-weight: normal;
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+}
+#left-offer-property{
+    animation: slideInFromTopLeft 0.9s ease-in-out;
+}
+#right-offer-property{
+    animation: slideInFromTopRight 0.9s ease-in-out
+}
+.property-feature-top{
+    padding: 100px;
+    width: 88.6vw;
+    margin-left:-5px ;
+    font-size: 20px;
+    margin-top: -100px;
+    font-family: 'Ubuntu', sans-serif;
+    background-color: rgb(200, 212, 222);
+    
+}
+.property-feature-top-in{
+    background-color: white;
+    border-radius: 20px;
+    padding: 20px;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 90vh;
+    
+}
+ img{
+    width: 450px;
+    border-radius: 20px;
+}
+.realstate-sell-display{
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 0px 16px;
+
+}
+.property-data-lists{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 60%;
+    margin-left: 20%;    
+}
+#property-feature-top{
+    animation: slideInFromLeft 0.9s ease-in-out
+
+}
